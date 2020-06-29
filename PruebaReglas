@@ -1,0 +1,5 @@
+S'→E;
+E→EorT|T;
+T→T&C|C;
+C→C*|C+|F;
+F→(E)|a;
