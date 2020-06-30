@@ -374,7 +374,7 @@ class AnalizadorSintacticoLR():
                         else:
                             tablaAux[i][j] = elemento.getNombre()
 
-        return tabulate(tablaAux, headers="firstrow",tablefmt="fancy_grid")
+        return tabulate(tablaAux, headers="firstrow")
 
 
     def generarTablaSLR(self,LR1=False):

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @author: Lalo Valle
+# @author: Lalo Valle 
 
 from AnalizadorLexico import *
 from AnalizadorSintactico import *

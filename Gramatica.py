@@ -157,6 +157,15 @@ class Gramatica():
                 print('{}|'.format(regla), end='')
             print(';')
 
+    def imprimirGramatica(self):
+        g = ""
+        for izquierdo, reglas in self._reglas.items():
+            g += '{}=>'.format(izquierdo)
+            for regla in reglas:
+                g += '{}|'.format(regla)
+            g += ";\n"
+        return g
+
     def eliminarRecursionIzquierda(self):
         reglasPrimas = {}
 
